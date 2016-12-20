@@ -21,10 +21,10 @@ ratatouille = media.Movie("Ratatouille", "A rat is a chef in Paris",
 midnight_in_paris = media.Movie("Midnight in Paris", "Going back in time to meet authors",
                                 "https://upload.wikimedia.org/wikipedia/en/9/9f/Midnight_in_Paris_Poster.jpg",
                                 "https://www.youtube.com/watch?v=FAfR8omt-CY")
-#the_hunger_games = media.Movie("The Hunger Games", "A really real reality show",
-                           #"https://upload.wikimedia.org/wikipedia/en/4/42/HungerGamesPoster.jpg",
-                           #"https://www.youtube.com/watch?v=4S9a5V9ODuY")
+the_hunger_games = media.Movie("The Hunger Games", "A really real reality show",
+                           "https://upload.wikimedia.org/wikipedia/en/4/42/HungerGamesPoster.jpg",
+                           "https://www.youtube.com/watch?v=4S9a5V9ODuY")
 
-movies = [toy_story, avatar, school_of_rock, ratatouille, midnight_in_paris]
+movies = [toy_story, avatar, school_of_rock, ratatouille, midnight_in_paris, the_hunger_games]
 fresh_tomatoes.open_movies_page(movies)
 #print(media.Movie.__module__)
