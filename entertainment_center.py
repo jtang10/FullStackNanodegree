@@ -4,14 +4,10 @@ toy_story = media.Movie("Toy Story",
                         "A story of a boy and his toys that come to life",
                         "http://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",  # NOQA
                         "https://www.youtube.com/watch?v=KYz2wyBy3kc")
-# print(toy_story.storyline)
-
 avatar = media.Movie("Avatar",
                      "A marine on an alien planet",
                      "https://upload.wikimedia.org/wikipedia/en/b/b0/Avatar-Teaser-Poster.jpg",  # NOQA
                      "https://www.youtube.com/watch?v=5PSNL1qE6VY")
-
-# avatar.show_trailer()
 school_of_rock = media.Movie("School of Rock", "Using rock music to learn",
                              "https://upload.wikimedia.org/wikipedia/en/1/11/School_of_Rock_Poster.jpg",  # NOQA
                              "https://www.youtube.com/watch?v=3PsUJFEBC74")
@@ -27,7 +23,8 @@ the_hunger_games = media.Movie("The Hunger Games",
                                "https://upload.wikimedia.org/wikipedia/en/4/42/HungerGamesPoster.jpg",  # NOQA
                                "https://www.youtube.com/watch?v=4S9a5V9ODuY")
 
+# Make a list of movies inputed above and use the open_movie_page function
+# to generate the html file.
 movies = [toy_story, avatar, school_of_rock,
           ratatouille, midnight_in_paris, the_hunger_games]
 fresh_tomatoes.open_movies_page(movies)
-# print(media.Movie.__module__)
